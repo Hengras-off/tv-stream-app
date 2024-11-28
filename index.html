@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Stream App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Смотреть ТВ Онлайн</h1>
+  <div id="channels">
+    <button onclick="playStream('http://example.com/stream1.m3u8')">Первый канал</button>
+    <button onclick="playStream('http://example.com/stream2.m3u8')">Россия 1</button>
+  </div>
+  <video id="videoPlayer" controls width="600"></video>
+  <script src="script.js"></script>
+</body>
+</html>
